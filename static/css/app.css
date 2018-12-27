@@ -509,7 +509,7 @@ html.no-touchevents .nav-video {
   filter: none; }
 
 .colored-title {
-  color: #ff5242; }
+  color: #2772a9; }
 
 .big-text {
   font-size: 24px;
@@ -709,7 +709,7 @@ html.no-touchevents .nav-video {
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #fff;
-  background-image: url(../../images/@stock/circle-1.png);
+  background-image: url(../../images/@stock/blue.png);
   background-position: center center;
   background-repeat: no-repeat; }
 
@@ -740,7 +740,7 @@ html.no-touchevents .nav-video {
   transform: translateY(0);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-color: #ffffff;
-  background-image: url(../../images/@stock/circle-3.png);
+  background-image: url(../../images/@stock/yellow.png);
   background-position: center center;
   background-repeat: no-repeat; }
 
@@ -812,6 +812,13 @@ html.no-touchevents .nav-video {
   background-image: url(../../images/@stock/service-3.png);
   background-repeat: repeat; }
 
+  .icon-4 {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  background-image: url(../../images/@stock/service-4.png);
+  background-repeat: repeat; }
+
 .icon-text h3 {
   margin-top: -50px;
   margin-left: 80px; }
@@ -846,6 +853,13 @@ html.no-touchevents .nav-video {
   animation: BackgroundAnimated-t-b 2s linear infinite; }
 
 .icon-text:hover .icon-3 {
+  -webkit-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -moz-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -ms-animation: BackgroundAnimated-r-l 2s linear infinite;
+  -o-animation: BackgroundAnimated-r-l 2s linear infinite;
+  animation: BackgroundAnimated-r-l 2s linear infinite; }
+
+  .icon-text:hover .icon-4 {
   -webkit-animation: BackgroundAnimated-r-l 2s linear infinite;
   -moz-animation: BackgroundAnimated-r-l 2s linear infinite;
   -ms-animation: BackgroundAnimated-r-l 2s linear infinite;
